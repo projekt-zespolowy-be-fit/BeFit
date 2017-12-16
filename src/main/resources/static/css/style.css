@@ -1,0 +1,8 @@
+.category {
+    float: left;
+    width: 150px;
+    height: 100px;
+    margin-top: 20px;
+    border: black 2px solid;
+    margin-right: 5px;
+}

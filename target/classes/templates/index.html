@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="eng" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8"/>
+    <title>BeFit</title>
+
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css" th:href="@{css/style.css}"/>
+
+</head>
+<body>
+
+
+<div class="container">
+    <div class="row justify-content-around">
+        <!-- rejestracja ma szerokosc 4, wiec przesuwam o 4 z lewej, i zostaje 4 na prawo -->
+        <div class="col-md-6 col-md-offset-3">
+
+            <div class="welcome">
+                <h1>Witaj w BeFit!</h1>
+                <a href="/login">Zaloguj</a>
+                <a href="/register">Zarejestruj</a>
+            </div>
+
+
+            <a href="kalkulator-bmi">
+                <div class="category">Kalkulator BMI</div>
+            </a>
+
+            <a href="zapotrzebowanie-kcal">
+                <div class="category">Dzienne zapotrzebowanie kaloryczne</div>
+            </a>
+            <a href="tkanka-tluszczowa">
+                <div class="category">Kalkulator poziomu tkanki tłuszczowej</div>
+            </a>
+            <a href="typ-sylwetki">
+                <div class="category">Ankieta wskazująca na typ sylwetki</div>
+            </a>
+            <a href="wspolczynnik-whr">
+                <div class="category">Współczynnik WHR</div>
+            </a>
+            <a href="tabela-produktow">
+                <div class="category">Tabela kalorii produktów</div>
+            </a>
+            <a href="komponowanie-posilku">
+                <div class="category">Komponowanie posiłku</div>
+            </a>
+            <a href="spalone-kalorie">
+                <div class="category">Kalkulator spalonych kalorii</div>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
